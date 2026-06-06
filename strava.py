@@ -1,7 +1,10 @@
 import requests
+import os
+
 
 # 🔹 Token do Strava (depois vamos mover para ENV)
-STRAVA_TOKEN = "843db69feaedfb23be32a20c3eed0a7ac932e49b"
+#STRAVA_TOKEN = "843db69feaedfb23be32a20c3eed0a7ac932e49b"
+STRAVA_TOKEN = os.getenv("STRAVA_TOKEN")
 
 def fetch_activities(after=None):
     """
