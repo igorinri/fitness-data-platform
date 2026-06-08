@@ -6,7 +6,7 @@ print("Funcionando 🚀")
 
 from pymongo import MongoClient
 
-client = MongoClient("mongodb+srv://igorinri_db_user:ekA60Dsq20fofetk@cluster0.o0vnn6k.mongodb.net/?appName=Cluster0")
+client = 
 db = client["fitness"]
 
 db = client["fitness"]
@@ -16,11 +16,11 @@ import requests
 from pymongo import MongoClient
 
 # CONFIG
-STRAVA_TOKEN = "843db69feaedfb23be32a20c3eed0a7ac932e49b" # access_token
+STRAVA_TOKEN = "8xpto" # access_token
 #MONGO_URI = "SUA_STRING_MONGO"
 
 # CONEXÃO
-client = MongoClient("mongodb+srv://igorinri_db_user:ekA60Dsq20fofetk@cluster0.o0vnn6k.mongodb.net/?appName=Cluster0")
+client =
 db = client["fitness"]
 
 # API STRAVA
